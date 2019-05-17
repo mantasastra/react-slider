@@ -1,7 +1,7 @@
 # React Slider
 A responsive react slider that can be integrated to any project. It uses REST API to fetch data.
 
-![React Slider](https://j.gifs.com/yoXZGw.gif)
+![React Slider](https://i.imgur.com/joDsDjy.gif)
 
 ## Built With
 
