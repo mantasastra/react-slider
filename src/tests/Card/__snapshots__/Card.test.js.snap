@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component it matches the snapshot 1`] = `
+<div
+  className="card"
+>
+  <a>
+    <div
+      className="card-image"
+    >
+      <img
+        alt="Random"
+      />
+    </div>
+    <div
+      className="card-header"
+    >
+      <img
+        alt="Mindera Icon"
+        className="card-header-icon"
+        src="mindera-icon.png"
+      />
+      <p
+        className="card-header-title"
+      >
+        <span
+          className="card-header-subtitle"
+        />
+      </p>
+    </div>
+    <div
+      className="card-text"
+    >
+      <p />
+    </div>
+  </a>
+  <div
+    className="like-heart"
+    onClick={[Function]}
+  >
+    <img
+      alt="Green Heart Button"
+      src="like.svg"
+    />
+  </div>
+</div>
+`;

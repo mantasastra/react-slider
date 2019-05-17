@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Right Arrow Component it matches the snapshot 1`] = `
+<div
+  className="arrow"
+>
+  <img
+    alt="Right Arrow"
+    aria-hidden="true"
+    src="right-arrow.svg"
+  />
+</div>
+`;

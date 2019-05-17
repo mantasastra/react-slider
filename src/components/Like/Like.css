@@ -1,0 +1,14 @@
+/* Heart like button */
+.like-heart {
+    position: absolute;
+    cursor: pointer;
+    margin-left: 18px;
+    width: 1%;
+    height: 9%;
+    bottom: 16px;
+}
+
+.like-heart img {
+    position: absolute;
+    width: 50%;
+}

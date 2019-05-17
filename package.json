@@ -1,0 +1,29 @@
+{
+  "name": "react-slider",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start-api": "json-server --port 3001 --watch --static none data/db.json"
+  },
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-html-parser": "^2.0.2",
+    "resize-observer": "^1.0.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.14.0",
+    "react-scripts": "2.1.5",
+    "react-test-renderer": "^16.8.6"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

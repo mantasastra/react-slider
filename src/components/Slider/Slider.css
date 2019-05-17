@@ -1,0 +1,38 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  /*width: 57.7%;*/
+  max-width: 68em;
+  background-color: #f6f6f6;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  position: relative;
+  display: flex;
+  flex: 1;
+  align-self: baseline;
+}
+
+.slider-arrows {
+  display: flex;
+  width: 40px;
+  align-self: center;
+}
+
+/* Responsiveness */
+
+/* Notebooks & Tablets */
+@media (max-width: 1100px) {
+  .slider {
+    max-width: 45em;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 750px) {
+  .slider {
+    max-width: 22em;
+  }
+}

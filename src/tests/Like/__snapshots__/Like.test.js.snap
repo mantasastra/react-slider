@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Like Component it matches the snapshot 1`] = `
+<div
+  className="like-heart"
+  onClick={[Function]}
+>
+  <img
+    alt="Green Heart Button"
+    src="like.svg"
+  />
+</div>
+`;

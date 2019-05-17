@@ -1,0 +1,9 @@
+.arrow {
+    margin-bottom: 26px;
+    cursor: pointer;
+}
+
+.arrow img {
+    width: 80%;
+    height: 80%;
+}

@@ -1,0 +1,74 @@
+.card {
+  margin: 26px 26px;
+  width: 308px;
+  height: 323px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 2%;
+  -webkit-box-shadow: 10px 10px 81px -35px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 10px 10px 81px -35px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 81px -35px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card-image {
+  margin-bottom: 10px;
+}
+.card-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 133px;
+}
+
+.card-header,
+.card-text {
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+/* Puts Icon and Card Title text into one line */
+.card-header {
+  display: flex;
+  flex-flow: row;
+}
+
+.card-header-icon {
+  margin-top: -2%;
+  width: 20%;
+  height: 20%;
+}
+
+.card-header-title {
+  display: flex;
+  flex-flow: column;
+  margin: 0 3%;
+  font-size: 23px;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+
+.card-header-subtitle {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #adadad;
+}
+
+.card-text p {
+  font-size: 12px;
+  line-height: 1.583;
+  color: #3a3a3a;
+}
+
+/* Responsiveness */
+
+/* iPhone 5 and similar resolution phones */
+@media (max-width: 330px) {
+  .card {
+    margin-left: 5px;
+    margin-right: 45px;
+  }
+}

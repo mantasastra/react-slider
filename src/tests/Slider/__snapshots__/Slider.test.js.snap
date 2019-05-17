@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider Component it matches the snapshot 1`] = `
+<div
+  className="slider"
+>
+  <div
+    className="slider-wrapper"
+    style={
+      Object {
+        "transform": "translateX(0px)",
+        "transition": "transform ease-out 0.5s",
+      }
+    }
+  />
+  <div
+    className="slider-arrows"
+  >
+    <div
+      className="arrow"
+      onClick={[Function]}
+    >
+      <img
+        alt="Left Arrow"
+        aria-hidden="true"
+        src="left-arrow.svg"
+      />
+    </div>
+    <div
+      className="arrow"
+      onClick={[Function]}
+    >
+      <img
+        alt="Right Arrow"
+        aria-hidden="true"
+        src="right-arrow.svg"
+      />
+    </div>
+  </div>
+</div>
+`;
