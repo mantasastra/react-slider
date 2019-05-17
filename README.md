@@ -1,19 +1,23 @@
 # React Slider
-
 A responsive react slider that can be integrated to any project. It uses REST API to fetch data.
+
+![React Slider](https://j.gifs.com/yoXZGw.gif)
+
+## Built With
+
+* [JavaScript](https://javascript.com/)
+* [React.js](https://reactjs.org/)
+* CSS
+* [Jest](https://jestjs.io/)
+* [JSON](https://www.json.org/)
 
 ## Instructions
 
-After installing dependencies with `yarn install`, you can run:
+First, install dependencies using:
+### `yarn install`
 
+To run the app in the development mode, use:
 ### `yarn start`
 
-Runs the app in development mode.
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload when you make edits.
-
+To run the cards API on `/cards`, use:
 ### `yarn start-api`
-
-Launches the cards API on [http://localhost:3001/cards](http://localhost:3001/cards).
